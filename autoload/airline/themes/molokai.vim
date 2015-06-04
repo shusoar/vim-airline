@@ -63,3 +63,12 @@ let g:airline#themes#molokai#palette.ctrlp = airline#extensions#ctrlp#generate_c
       \ [ '#f8f8f0' , '#232526' , 253 , 16  , ''     ] ,
       \ [ '#080808' , '#e6db74' , 232 , 144 , 'bold' ] )
 
+" tabline
+let g:airline#themes#molokai#palette.tabline = {
+      \ 'airline_tab':      ['#f8f8f0' , '#232526' , 253 , 238 , '' ],
+      \ 'airline_tabsel':   ['#080808' , '#e6db74' , 232 , 67  , '' ],
+      \ 'airline_tabtype':  ['#080808' , '#fd971f' , 232 , 208 , '' ],
+      \ 'airline_tabfill':  ['#f8f8f0' , '#465457' , 253 , 236 , '' ],
+      \ 'airline_tabmod':   ['#080808' , '#66d9ef' , 232 , 81  , '' ],
+      \ 'airline_tabhid':   ['#f8f8f0' , '#465457' , 144 , 16  , '' ],
+      \ }
